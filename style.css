@@ -8,31 +8,55 @@ body,h1,h2{
   margin: 0px;
   padding: 0px;
 }
+section p{
+  margin-right: 40px;
+}
+hr{
+  margin-right: 40px;
+  margin-bottom: 0px;
+}
+.aside{
+  
+  background-color: rgb(7, 34, 56);
+  float: left;
+  clear: both;
+  width: 200px;
+  height: 1100px;
+  margin-right: 50px;
+
+}
 footer {
   text-align: center;
   background-color: #1e1e1e;
   padding: 20px;
   font-size: 12px;
-  color:#919191;
+  color:#c4c1c1;
 }
 .mainbox{
+  background-color:rgba(218, 214, 214, 0.596);
   width: 610px;
-  padding:40px;
+  padding: 15px;
   margin: 30px;
   border: 1px solid #ebebeb;
   margin: 0 auto;
   box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
+  
 }
 .name-text{
+  margin-top: 40px;
+  text-align: center;
   font-size: 16px;
   font-weight: bold;
   font-style: italic;
+  color: #ebebeb;
 }
 .about-me-text{
+  
   font-size: 10px;
   line-height: 16px;
 }
 .title-text{
+  margin: auto;
  font-size: 11px;
  font-weight: bold;
  color:#282828;
@@ -40,6 +64,7 @@ footer {
  float:left;
 }
 .year-text{
+  margin: auto;
   font-size: 11px;
   font-weight: bold;
   color:#282828;
@@ -47,35 +72,51 @@ footer {
   float:right;
 }
 h1{
-  font-size: 36px;
+  font-size: 24px;
   font-weight: bold;
-  font-style: italic;
+  color: aliceblue;
+  padding-top:100px ;
+  margin-left: 5px;
 }
 h2{
+  margin-right: 40px;
+  margin-top: 100px;
+  margin-left: 250px;
+  background-color:rgb(7, 34, 56);
   font-size: 20px;
-  color:#8f8e8e;
+  color:#ebebeb;
   font-weight: lighter;
   margin-bottom: 16px;
   border-bottom: 1px soild #ebebeb;
   padding-bottom: 5px;
+  text-align: center;
 }
 .float-wrap{
+  margin-right: 40px;
   overflow:hidden;
 }
 .desc-text{
+  margin-right: 40px;
 font-size: 9px;
 }
 .desc-subtext{
+  margin-right: 40px;
   font-size: 9px;
   color:#282828;
   padding-left: 16px;
 }
 .title-box{
-  text-align: right;
+  text-align: left;
 }
 .profile-img{
-  float: left;
+  text-align: center;
+  margin: 10px;
+  float: right;
   display: inline;
+  border-radius: 50%;
+  overflow: hidden;
+  
+  
 }
 .sns-img{
   width: 12px;
@@ -83,4 +124,94 @@ font-size: 9px;
 }
 .sns-wrap{
   text-align: right;
+}
+.button{
+  
+  background-color: #7e737396;
+  text-decoration: none;
+  margin-left: 70px;
+  text-align: center;
+  color:white;
+}
+.button:hover {
+	background-color: black;
+}
+subsection{
+  position: relative;
+  right: 5px;
+  float: right;
+  text-align: left;
+  font-size: 10px;
+  background-color:rgb(7, 34, 56) ;
+  border-radius: 0% 0% 0% 50%;
+  color:#ebebeb;
+}
+.skill{
+  position: relative;
+  top: -75px;
+  text-align: center;
+}
+.name1{
+  color: white;
+text-align: center;
+}
+.h_graph ul{
+  color:white;
+}
+
+.span{
+  position: relative;
+  top:-90px;
+  font-weight: bold;
+  background-color:#7e737396;
+  width: 50%;
+  text-align: left;
+}
+span{
+  position: relative;
+  top:-50px;
+}
+.hobby{
+  color: white;
+  position: relative;
+  top:-180px;
+  text-align: center;
+}
+.ccc{
+  position: relative;
+  top:-170px;
+  left:25px;
+  width: 60px;
+}
+.bbb{
+  position: relative;
+  top:-65px;
+  left:-35px;
+  width: 60px;
+}
+.ddd{
+  position: relative;
+  top:-10px;
+  left:25px;
+  width: 60px;
+}
+.eee{
+  position: relative;
+  width: 60px;
+  top:-180px;
+  left: 50px;
+}
+.fff{
+  position: relative;
+  width: 60px;
+  top:-70px;
+  right: 20px
+}
+.sub{
+  position: relative;
+  top:-80px;
+}
+main{
+  position: relative;
+  margin-top: -80px;
 }
